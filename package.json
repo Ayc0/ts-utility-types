@@ -8,6 +8,8 @@
 	"license": "MIT",
 	"files": [
 		"index.ts",
-		"test.ts"
+		"test.ts",
+		"array.ts",
+		"string.ts"
 	]
 }
