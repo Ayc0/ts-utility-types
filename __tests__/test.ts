@@ -1,12 +1,15 @@
 import type { Assert, Equal, Not } from "../test";
 
 type cases = [
+	// Assert
 	Assert<true>,
 	// @ts-expect-error
 	Assert<false>,
 
+	// Not
 	Assert<Not<false>>,
 
+	// Equal
 	Assert<Equal<1, 1>>,
 	Assert<Equal<string, string>>,
 	Assert<Equal<"hello", "hello">>,
