@@ -30,3 +30,14 @@ type B = readonly [1, 2, 3, 4, 5];
 type LengthOfA = Length<A>; // 3
 type LengthOfB = Length<B>; // 5
 ```
+
+## Utilities for objects
+
+```ts
+import type { Assign } from "ts-utility-types/object";
+
+type A = { a: 1; b: 2 };
+type B = { b: 3 };
+
+type A_assign_B = Assign<A, B>; // { a: 1, b: 3 }
+```

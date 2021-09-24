@@ -12,6 +12,7 @@ type cases = [
 	// Equal
 	Assert<Equal<1, 1>>,
 	Assert<Equal<string, string>>,
+	Assert<Equal<never, never>>,
 	Assert<Equal<"hello", "hello">>,
 	Assert<Equal<[], []>>,
 	Assert<Equal<any[], any[]>>,
