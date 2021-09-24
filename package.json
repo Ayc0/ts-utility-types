@@ -1,12 +1,13 @@
 {
-  "name": "ts-utility-types",
-  "version": "0.0.0",
-  "description": "TypeScript Utility Types",
-  "types": "index.d.ts",
-  "repository": "git@github.com:Ayc0/ts-utility-types.git",
-  "author": "Ayc0 <ayc0.benj@gmail.com>",
-  "license": "MIT",
-  "files": [
-    "index.d.ts"
-  ]
+    "name": "ts-utility-types",
+    "version": "0.0.0",
+    "description": "TypeScript Utility Types",
+    "types": "index.d.ts",
+    "repository": "git@github.com:Ayc0/ts-utility-types.git",
+    "author": "Ayc0 <ayc0.benj@gmail.com>",
+    "license": "MIT",
+    "files": [
+        "index.d.ts",
+        "test.d.ts"
+    ]
 }
