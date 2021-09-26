@@ -1,0 +1,18 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+    types:
+        name: Check types with ${{ matrix.typescript-version }}
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                typescript-version: ["^4.4.0", "^4.3.0", "^4.2.0", "^4.1.0"]
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v2
+              with:
+                  node-version: 16.x
+            - run: npm install -D typescript@${{ matrix.typescript-version }}
+            - run: npx tsc
