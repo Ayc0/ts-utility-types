@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"strict": true,
+		"allowUnreachableCode": false,
+		"exactOptionalPropertyTypes": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true
+	}
+}

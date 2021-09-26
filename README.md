@@ -41,3 +41,11 @@ type B = { b: 3 };
 
 type A_assign_B = Assign<A, B>; // { a: 1, b: 3 }
 ```
+
+## Utilities for JSON
+
+```ts
+import type { JsonObject, JsonArray, JsonValue, Json } from "ts-utility-types/object";
+
+const myJson: Json = { a: 1; b: 2 };
+```
